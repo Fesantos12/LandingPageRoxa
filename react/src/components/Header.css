@@ -1,0 +1,39 @@
+:root {
+    --rosa: #E0AAFF;
+}
+
+.Container {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.Container ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;  
+}
+
+.Container ul li {
+    list-style: none;
+}
+
+.Container a {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--rosa);
+    transition: .2s;
+}
+
+.Container a:hover {
+    color: #C77DFF;
+}
+

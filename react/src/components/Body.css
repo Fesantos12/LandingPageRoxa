@@ -1,0 +1,115 @@
+:root {
+    --rosa: #E0AAFF;
+    --rosa2: #C77DFF;
+}
+
+.BodyContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+
+.Tittle {
+    margin-top: -10px;
+    margin-bottom: 80px;
+    font-size: 48px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.Cards {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Card1, .Card2, .Card3 {
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom right, var(--rosa), var(--rosa2));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 70px;
+    box-shadow: 5px 5px 25px -2px #000000
+}
+
+
+.Card1 i {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+}
+
+.Card1 h2 {
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin-top: -20px;
+}
+
+.Card1 h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top:60px;
+    margin-bottom: 0px;
+}
+
+.Card2 i {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+}
+
+.Card2 h2 {
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin-top: -20px;
+}
+
+.Card2 h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top:60px;
+    margin-bottom: 0px;
+}
+
+.Card3 i {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+}
+
+.Card3 h2 {
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin-top: -20px;
+}
+
+.Card3 h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top:60px;
+    margin-bottom: 0px;
+}    
